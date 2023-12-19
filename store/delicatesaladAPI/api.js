@@ -1,6 +1,6 @@
 import axios from "axios"
 const delicatesaladAPI = axios.create({
-  baseURL: "https://delicate-salad-44375.botics.co",
+  baseURL: "https://pro-plus-parenting-44375.botics.co",
   headers: { Accept: "application/json", "Content-Type": "application/json" }
 })
 function api_docs_schema_retrieve(payload) {
